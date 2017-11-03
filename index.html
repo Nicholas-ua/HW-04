@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My personal website</title>
+    <link rel="icon" type="image/png" sizes="70x70" href="images/favicon-70x70.png"/>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <style>
+       ul.hr {
+        margin: 0; /* Обнуляемо значення відступівв */
+        padding: 4px; /* Значення полів */
+       }
+       ul.hr li {
+        display: inline; /* Відображати як строковий елемент */
+        margin-right: 50px; /* Відступ справа */
+        border: 1px solid #000; /* Рамка навколо тексту */
+        padding: 3px; /* Поле навколо тексту */
+       }
+      </style>
+    <header>
+        <nav>
+            <ul class="hr">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#links">Links</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br />
+    <hr />
+        <section id="home">
+            <img src="images/draw-shaft-02.png" width="1080" height="680"/>
+        </section>
+    <br />
+    <hr />
+    <br />
+    <section id="about">
+        <p>Short about me</p>
+        <p>Hello! I am Mykola Savych.
+I'm senior teacher of Forestry University.
+Every time we need new knowledge about world to create new things. 
+CAD-systems help us to create high-technology things for save resources. 
+I teach students to use CAD-systems in study process to create, calculates and writes technical documentations  for  woodworking machines and  components. Our students discovers  designing woodworking tools for different woodworking  jobs.
+On my website I want to demonstrate some created elements of projects. 
+These projects has been created by various CAD-systems: KOMPAS 3D, SOLIDWORKS, INVENTOR. You can look at some of  these elements and make your own mind about this. May be someone who wants to be engineer and make beautiful things will want first to study and then to use such as these systems.
+I hope my website will be helpful for other people too.
+</p>
+    </section>
+    <br />
+    <hr />
+    <br />
+    <section id="links">
+        <p>Links</p>
+        <br />
+        <img src="images/shaft-kompas.png" alt="KOMPAS 3D" />
+        <p>Link for KOMPAS 3D</p>
+        <br />
+        <br />
+        <img src="images/solidworks-02.png" alt="SolidWorks" />
+        <p>Link for SolidWorks</p>
+        <br />
+        <br />
+        <img src="images/inventor-02.png" alt="Inventor" />
+        <p>Link for Inventor</p>
+        <br />
+        <br />
+        <img src="images/mechatronic.png" alt="Mechatronic" />
+        <p>Link for Mechatronic</p>
+        <br />
+    </section>
+    <br />
+    <hr />
+    <br />
+    <section  id="contacts">
+        <p>Contacts</p>
+        <form method="post" action="https://formspree.io/smm1@ukr.net">
+            <label>Your name:
+                <input type="text" name="client-name" required placeholder="Your Name"/>
+            </label>
+            <br />
+            <label for="client-email">Your email:</label>
+            <input type="email" name="client-email" id="client-email" required/>
+            <br />
+            <label>Write me:
+                <input type="text" name="text" />
+            </label>
+             <br />
+            <input type="submit" value="SEND" />
+            <input type="reset" value="BLANK" />
+        </form>
+        <br />
+    </section>
+    <br />
+    
+</body>
+</html>
